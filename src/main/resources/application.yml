@@ -1,0 +1,24 @@
+server:
+  port: 6111
+
+security:
+  user:
+    name: abc
+    password: password
+
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+  datasource:
+    username: postgres
+    password: admin
+    platform: postgress
+    url: jdbc:postgresql://localhost:5432/springbootdb
+
+logging:
+  level:
+     org.springframework.security: DEBUG
