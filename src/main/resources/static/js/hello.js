@@ -4,8 +4,8 @@ angular
 
         function($routeProvider, $httpProvider, $locationProvider) {
 
-            $locationProvider.html5Mode(true);
-
+           // $locationProvider.html5Mode(true);
+console.log(" i am here");
             $routeProvider.when('/', {
                 templateUrl : 'js/home/home.html',
                 controller : 'home'
